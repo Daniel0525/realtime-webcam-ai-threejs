@@ -19,13 +19,3 @@ with OpenSSL
 ```
 openssl req -newkey rsa:2048 -new -nodes -keyout key.pem -out csr.pem ; openssl x509 -req -days 365 -in csr.pem -signkey key.pem -out server.crt
 ```
-
-## License
-
-Copyright (c) 2020 Yoichi Kobayashi  
-Released under the MIT license  
-http://opensource.org/licenses/mit-license.php
-
-## Misc
-
-Follow Yoichi Kobayashi: [Web](http://www.tplh.net/), [Twitter](https://twitter.com/ykob0123)
